@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ideograph_wysiywg_feature feature.
+ */
+
+include_once('ideograph_wysiywg_feature.features.inc');
