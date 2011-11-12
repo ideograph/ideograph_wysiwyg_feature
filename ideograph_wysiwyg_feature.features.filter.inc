@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ideograph_wysiywg_feature.features.filter.inc
+ * ideograph_wysiwyg_feature.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function ideograph_wysiywg_feature_filter_default_formats() {
+function ideograph_wysiwyg_feature_filter_default_formats() {
   $formats = array();
 
   // Exported format: advanced text editor

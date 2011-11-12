@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ideograph_wysiywg_feature.features.user_permission.inc
+ * ideograph_wysiwyg_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function ideograph_wysiywg_feature_user_default_permissions() {
+function ideograph_wysiwyg_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: administer filters

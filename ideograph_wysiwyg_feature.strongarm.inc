@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ideograph_wysiywg_feature.strongarm.inc
+ * ideograph_wysiwyg_feature.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function ideograph_wysiywg_feature_strongarm() {
+function ideograph_wysiwyg_feature_strongarm() {
   $export = array();
 
   $strongarm = new stdClass;
