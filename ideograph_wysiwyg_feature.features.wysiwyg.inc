@@ -16,7 +16,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,
-      'user_choose' => 0,
+      'user_choose' => 1,
       'show_toggle' => 0,
       'theme' => 'advanced',
       'language' => 'en',
@@ -28,6 +28,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
           'JustifyLeft' => 1,
           'JustifyRight' => 1,
           'BulletedList' => 1,
+          'NumberedList' => 1,
           'Outdent' => 1,
           'Indent' => 1,
           'Link' => 1,
@@ -47,9 +48,6 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
           'Table' => 1,
           'Scayt' => 1,
         ),
-        'imce' => array(
-          'imce' => 1,
-        ),
         'drupal' => array(
           'break' => 1,
         ),
@@ -67,12 +65,16 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
       'block_formats' => 'p,h2,h3,h4,h5,h6,pre',
       'css_setting' => 'self',
       'css_path' => '/themes/bartik/css/style.css, /themes/bartik/css/colors.css,/sites/all/themes/ideograph_wysiwyg_bartik/css/wysiwyg.css, /sites/all/themes/ideograph_wysiwyg_bartik/css/nodes.css',
-      'css_classes' => 'section=h3.node-section
-  sub-section=h4.node-subsection
+      'css_classes' => 'title=h2.node-title
+  subtitle=h3.node-subtitle
+  section=h4.node-section
+  sub-section=h5.node-subsection
   image left=div.img-left
   image right=div.img-right
+  image center=div.img-center
   container=div.clearfix',
     ),
+    'rdf_mapping' => array(),
   );
 
   // Exported profile: text_editor
@@ -81,7 +83,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,
-      'user_choose' => 0,
+      'user_choose' => 1,
       'show_toggle' => 0,
       'theme' => 'advanced',
       'language' => 'en',
@@ -104,7 +106,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
           'HorizontalRule' => 1,
           'ShowBlocks' => 1,
           'RemoveFormat' => 1,
-          'Format' => 1,
+          'Styles' => 1,
           'Scayt' => 1,
         ),
         'drupal' => array(
@@ -124,12 +126,16 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
       'block_formats' => 'p,h2,h3,h4,h5,h6,pre',
       'css_setting' => 'self',
       'css_path' => '/themes/bartik/css/style.css, /themes/bartik/css/colors.css,/sites/all/themes/ideograph_wysiwyg_bartik/css/wysiwyg.css, /sites/all/themes/ideograph_wysiwyg_bartik/css/nodes.css',
-      'css_classes' => 'section=h3.node-section
-  sub-section=h4.node-subsection
+      'css_classes' => 'title=h2.node-title
+  subtitle=h3.node-subtitle
+  section=h4.node-section
+  sub-section=h5.node-subsection
   image left=div.img-left
   image right=div.img-right
+  image center=div.img-center
   container=div.clearfix',
     ),
+    'rdf_mapping' => array(),
   );
 
   return $profiles;
