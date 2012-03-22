@@ -1,7 +1,6 @@
 core = "7.x"
 dependencies[] = "better_formats"
 dependencies[] = "features"
-dependencies[] = "ideograph_util"
 dependencies[] = "image_resize_filter"
 dependencies[] = "strongarm"
 dependencies[] = "wysiwyg"
@@ -35,3 +34,5 @@ package = "Ideograph"
 php = "5.2.4"
 project = "ideograph_wysiwyg_feature"
 version = "7.x-1.03"
+
+recommends[] = "ideograph_util"
