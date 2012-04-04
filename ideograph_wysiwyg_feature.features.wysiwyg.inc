@@ -67,14 +67,13 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
       'css_path' => '/themes/bartik/css/style.css, /themes/bartik/css/colors.css,/sites/all/themes/ideograph_wysiwyg_bartik/css/wysiwyg.css, /sites/all/themes/ideograph_wysiwyg_bartik/css/nodes.css',
       'css_classes' => 'title=h2.node-title
   subtitle=h3.node-subtitle
-  section=h4.node-section
-  sub-section=h5.node-subsection
+  section=h3.node-section
+  sub-section=h4.node-subsection
   image left=div.img-left
   image right=div.img-right
   image center=div.img-center
   container=div.clearfix',
     ),
-    'rdf_mapping' => array(),
   );
 
   // Exported profile: text_editor
@@ -128,14 +127,13 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
       'css_path' => '/themes/bartik/css/style.css, /themes/bartik/css/colors.css,/sites/all/themes/ideograph_wysiwyg_bartik/css/wysiwyg.css, /sites/all/themes/ideograph_wysiwyg_bartik/css/nodes.css',
       'css_classes' => 'title=h2.node-title
   subtitle=h3.node-subtitle
-  section=h4.node-section
-  sub-section=h5.node-subsection
+  section=h3.node-section
+  sub-section=h4.node-subsection
   image left=div.img-left
   image right=div.img-right
   image center=div.img-center
   container=div.clearfix',
     ),
-    'rdf_mapping' => array(),
   );
 
   return $profiles;
