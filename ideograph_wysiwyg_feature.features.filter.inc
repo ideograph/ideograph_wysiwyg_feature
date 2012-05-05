@@ -23,11 +23,6 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         'status' => '1',
         'settings' => array(),
       ),
-      'wysiwyg_fields' => array(
-        'weight' => '-45',
-        'status' => '1',
-        'settings' => array(),
-      ),
       'pathologic' => array(
         'weight' => '-44',
         'status' => '1',
@@ -73,7 +68,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
           'allow_comments' => '0',
           'nofollow_policy' => 'whitelist',
           'nofollow_domains' => array(
-            0 => 'ideograph.wysiwyg',
+            0 => 'ideograph.local',
             2 => 'ideograph.biz',
             4 => 'ideograph.ca',
           ),
@@ -208,6 +203,11 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
           ),
         ),
       ),
+      'wysiwyg_fields' => array(
+        'weight' => '50',
+        'status' => '1',
+        'settings' => array(),
+      ),
     ),
   );
 
@@ -232,7 +232,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         'settings' => array(),
       ),
       'pathologic' => array(
-        'weight' => '-44',
+        'weight' => '-45',
         'status' => '1',
         'settings' => array(
           'local_paths' => 'wysiwyw.ideograph.biz
@@ -243,7 +243,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         ),
       ),
       'image_resize_filter' => array(
-        'weight' => '-43',
+        'weight' => '-44',
         'status' => '1',
         'settings' => array(
           'link' => 0,
@@ -256,7 +256,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         ),
       ),
       'wysiwyg' => array(
-        'weight' => '-42',
+        'weight' => '-43',
         'status' => '1',
         'settings' => array(
           'valid_elements' => '@[class|style|title],
@@ -272,7 +272,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
           'allow_comments' => '0',
           'nofollow_policy' => 'whitelist',
           'nofollow_domains' => array(
-            0 => 'ideograph.wysiwyg',
+            0 => 'ideograph.local',
             2 => 'ideograph.ca',
             4 => 'ideograph.biz',
           ),
@@ -406,7 +406,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         ),
       ),
       'wysiwyg_fields' => array(
-        'weight' => '50',
+        'weight' => '-42',
         'status' => '1',
         'settings' => array(),
       ),

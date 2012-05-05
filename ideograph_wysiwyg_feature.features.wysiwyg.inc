@@ -18,7 +18,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
       'default' => 1,
       'user_choose' => 1,
       'show_toggle' => 0,
-      'theme' => 'advanced',
+      'theme' => 'kama',
       'language' => 'en',
       'buttons' => array(
         'default' => array(
@@ -49,6 +49,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
         ),
         'drupal' => array(
           'break' => 1,
+          'wysiwyg_fields_field_insert_imagefield_sources' => 1,
         ),
       ),
       'toolbar_loc' => 'top',
@@ -109,6 +110,7 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
         ),
         'drupal' => array(
           'break' => 1,
+          'wysiwyg_fields_field_insert_imagefield_sources' => 1,
         ),
       ),
       'toolbar_loc' => 'top',
