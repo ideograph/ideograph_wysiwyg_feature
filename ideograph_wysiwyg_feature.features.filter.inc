@@ -19,12 +19,28 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
     'weight' => '-9',
     'filters' => array(
       'filter_htmlcorrector' => array(
-        'weight' => '-43',
+        'weight' => '-50',
         'status' => '1',
         'settings' => array(),
       ),
+      'wysiwyg_fields' => array(
+        'weight' => '-45',
+        'status' => '1',
+        'settings' => array(),
+      ),
+      'pathologic' => array(
+        'weight' => '-44',
+        'status' => '1',
+        'settings' => array(
+          'local_paths' => 'wysiwyw.ideograph.biz
+  wysiwyw.ideograph.local
+  dev.wysiwyw.ideograph.local
+  /',
+          'absolute' => 0,
+        ),
+      ),
       'image_resize_filter' => array(
-        'weight' => '37',
+        'weight' => '-43',
         'status' => '1',
         'settings' => array(
           'link' => 0,
@@ -37,7 +53,7 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         ),
       ),
       'wysiwyg' => array(
-        'weight' => '49',
+        'weight' => '-42',
         'status' => '1',
         'settings' => array(
           'valid_elements' => '@[class|style|title],
@@ -211,12 +227,36 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         ),
       ),
       'filter_htmlcorrector' => array(
-        'weight' => '-46',
+        'weight' => '-49',
         'status' => '1',
         'settings' => array(),
       ),
+      'pathologic' => array(
+        'weight' => '-44',
+        'status' => '1',
+        'settings' => array(
+          'local_paths' => 'wysiwyw.ideograph.biz
+  wysiwyw.ideograph.local
+  dev.wysiwyw.ideograph.local
+  /',
+          'absolute' => 0,
+        ),
+      ),
+      'image_resize_filter' => array(
+        'weight' => '-43',
+        'status' => '1',
+        'settings' => array(
+          'link' => 0,
+          'link_class' => '',
+          'link_rel' => '',
+          'image_locations' => array(
+            'local' => 'local',
+            'remote' => 0,
+          ),
+        ),
+      ),
       'wysiwyg' => array(
-        'weight' => '30',
+        'weight' => '-42',
         'status' => '1',
         'settings' => array(
           'valid_elements' => '@[class|style|title],
@@ -365,18 +405,10 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
           ),
         ),
       ),
-      'image_resize_filter' => array(
-        'weight' => '46',
+      'wysiwyg_fields' => array(
+        'weight' => '50',
         'status' => '1',
-        'settings' => array(
-          'link' => 0,
-          'link_class' => '',
-          'link_rel' => '',
-          'image_locations' => array(
-            'local' => 'local',
-            'remote' => 0,
-          ),
-        ),
+        'settings' => array(),
       ),
     ),
   );

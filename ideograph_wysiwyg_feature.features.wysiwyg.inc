@@ -34,7 +34,6 @@ function ideograph_wysiwyg_feature_wysiwyg_default_profiles() {
           'Link' => 1,
           'Unlink' => 1,
           'Anchor' => 1,
-          'Image' => 1,
           'Superscript' => 1,
           'Subscript' => 1,
           'Blockquote' => 1,
