@@ -28,10 +28,10 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         'status' => '1',
         'settings' => array(
           'local_paths' => 'wysiwyw.ideograph.biz
-  wysiwyw.ideograph.local
-  dev.wysiwyw.ideograph.local
-  /',
-          'absolute' => 0,
+    wysiwyw.ideograph.local
+    dev.wysiwyw.ideograph.local
+    /',
+          'protocol_style' => 'path',
         ),
       ),
       'image_resize_filter' => array(
@@ -52,19 +52,19 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         'status' => '1',
         'settings' => array(
           'valid_elements' => '@[class|style|title],
-  a[!href|target<_blank|name|rel|id],
-  -div[align<center?justify?left?right],
-  #p[align<center?justify?left?right],
-  strong/b,em/i,u,-sup,-sub,
-  -ol[type|compact],-ul[type|compact],-li,-dl,-dt,-dd,
-  caption,-code,-pre,address,-h1,-h2,-h3,-h4,-h5,-h6,hr[size|noshade],
-  br,cite,code,-blockquote,cite,abbr,acronym,legend,
-  img[src|width|height|align|hspace|vspace],
-  -table[border=0|cellspacing|cellpadding|width|frame|rules|height|align|summary|bgcolor|background|bordercolor],
-  -tr[rowspan|width|height|align|valign|bgcolor|background|bordercolor],
-  tbody,thead,tfoot,#td[colspan|rowspan|width|height|align|valign|bgcolor|background|bordercolor|scope],
-  #th[colspan|rowspan|width|height|align|valign|scope],
-  -span[align<center?justify?left?right]',
+    a[!href|target<_blank|name|rel|id],
+    -div[align<center?justify?left?right],
+    #p[align<center?justify?left?right],
+    strong/b,em/i,u,-sup,-sub,
+    -ol[type|compact],-ul[type|compact],-li,-dl,-dt,-dd,
+    caption,-code,-pre,address,-h1,-h2,-h3,-h4,-h5,-h6,hr[size|noshade],
+    br,cite,code,-blockquote,cite,abbr,acronym,legend,
+    img[src|width|height|align|hspace|vspace],
+    -table[border=0|cellspacing|cellpadding|width|frame|rules|height|align|summary|bgcolor|background|bordercolor],
+    -tr[rowspan|width|height|align|valign|bgcolor|background|bordercolor],
+    tbody,thead,tfoot,#td[colspan|rowspan|width|height|align|valign|bgcolor|background|bordercolor|scope],
+    #th[colspan|rowspan|width|height|align|valign|scope],
+    -span[align<center?justify?left?right]',
           'allow_comments' => '0',
           'nofollow_policy' => 'whitelist',
           'nofollow_domains' => array(
@@ -236,10 +236,10 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         'status' => '1',
         'settings' => array(
           'local_paths' => 'wysiwyw.ideograph.biz
-  wysiwyw.ideograph.local
-  dev.wysiwyw.ideograph.local
-  /',
-          'absolute' => 0,
+    wysiwyw.ideograph.local
+    dev.wysiwyw.ideograph.local
+    /',
+          'protocol_style' => 'path',
         ),
       ),
       'image_resize_filter' => array(
@@ -260,15 +260,15 @@ function ideograph_wysiwyg_feature_filter_default_formats() {
         'status' => '1',
         'settings' => array(
           'valid_elements' => '@[class|style|title],
-  a[href|target<_blank|name|rel],
-  -div[align<center?justify?left?right],
-  #p[align<center?justify?left?right],
-  strong/b,em/i,u,
-  -ol[type|compact],-ul[type|compact],-li,-dl,-dt,-dd,
-  caption,-h2,-h3,-h4,-h5,-h6,hr[size|noshade],
-  br,cite,code,-blockquote,
-  img[src|width|height|align|hspace|vspace],
-  -span[align<center?justify?left?right]',
+    a[href|target<_blank|name|rel],
+    -div[align<center?justify?left?right],
+    #p[align<center?justify?left?right],
+    strong/b,em/i,u,
+    -ol[type|compact],-ul[type|compact],-li,-dl,-dt,-dd,
+    caption,-h2,-h3,-h4,-h5,-h6,hr[size|noshade],
+    br,cite,code,-blockquote,
+    img[src|width|height|align|hspace|vspace],
+    -span[align<center?justify?left?right]',
           'allow_comments' => '0',
           'nofollow_policy' => 'whitelist',
           'nofollow_domains' => array(
